@@ -1,8 +1,8 @@
 <%- include('partials/header') %>
 <h1>Compose</h1>
-<form>
+<form action="/compose" method="POST">
   <div class="form-group">
-    <input type="text" class="form-control" name="composeInput">
+    <input type="text" class="form-control" name="composeTitle">
   </div>
   <button type="submit" class="btn btn-primary" name="composeButton">Publish</button>
 </form>
