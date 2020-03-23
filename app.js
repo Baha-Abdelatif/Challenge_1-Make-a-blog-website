@@ -45,7 +45,11 @@ app.get('/compose', (req, res) => {
 });
 
 app.post('/compose', (req, res) => {
-  console.log(req.body.composeTitle);
+  const post = {
+    postTitle: req.body.composeTitle,
+    postContent: req.body.composeContent
+  }
+  console.log(post);
 })
 
 
