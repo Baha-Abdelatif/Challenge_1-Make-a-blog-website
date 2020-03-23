@@ -1,0 +1,20 @@
+{
+  "name": "ejs-challenge",
+  "version": "1.0.0",
+  "description": "Make a blog Website using all that we have learned",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdelatif BAHA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.15"
+  },
+  "nodemonConfig": {
+    "ext": "js,ejs,css,html,json"
+  }
+}
